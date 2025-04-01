@@ -1,0 +1,20 @@
+/*import fonts*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,900");
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,900");
+
+/*allows image to adjust with screen, never exceeding max width*/
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.intro {
+  font-family: "Montserrat", serif;
+}
+
+.heart {
+  font-size: 15px;
+  color: #dd1ef3;
+  background-color:rgb(236, 154, 238);
+  border: none;
+}
