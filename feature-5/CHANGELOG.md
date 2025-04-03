@@ -6,11 +6,25 @@ This is based on the example provided in class by Professor Wicks.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
  
-## [Unreleased] - 2025-04-02
+## [Unreleased] - 2025-05-03
 
-Feature 5
+Feature 6 - Feature Branch
+
+## [0.3.0] - 2025-04-02
+
+We made our website more secure through the adding of authentication mechanisms.
+
+### Added
+
+We added login, register, and logout capabilities.
  
-We're working on adding authentication to our website.
+### Changed
+
+Made some of our existing routing protected, so non-authenticated users would not be able to access all pages of the website.
+
+### Fixed
+
+Nothing.
  
 ## [0.2.0] - 2025-03-07
 

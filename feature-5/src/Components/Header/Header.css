@@ -9,7 +9,7 @@
   justify-content: flex-end;
 
   list-style: none;
-  margin: 0;
+  margin: 0 0 0 10;
   background: rgb(236, 154, 238);
   font-family: "Montserrat", serif;
 }
@@ -59,3 +59,22 @@
     font-family: "Oswald", serif;
 }
 
+.top {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+}
+
+.logout-button {
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  background-color:rgb(236, 154, 238);
+  border: none;
+}
+
+.logout-button:hover {
+  background: #dd1ef3;
+}
