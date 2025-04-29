@@ -1,0 +1,16 @@
+/* CSS formatting for Map */
+#map-container {
+    width: 700px;
+    height: 400px;
+    margin: auto;
+}  
+
+/* Make map size responsive */
+@media (max-width: 800px) {
+    #map-container {
+      width: 90%;
+      height: auto;
+      aspect-ratio: 7 / 4;
+    }
+}
+

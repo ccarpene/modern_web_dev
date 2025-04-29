@@ -1,0 +1,40 @@
+/*import fonts*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,900");
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,900");
+
+/*formats "container" of buttons*/
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+/*format for input fields*/
+.auth-input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+/*format for buttons*/
+.auth-button{
+    background-color: rgb(236, 154, 238);
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    cursor: pointer;
+    width: 200px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/*hover feature*/
+.auth-button:hover {
+    background-color: #dd1ef3;
+}

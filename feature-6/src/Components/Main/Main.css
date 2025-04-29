@@ -1,0 +1,51 @@
+/*import fonts*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,900");
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,900");
+
+/*allows image to adjust with screen, never exceeding max width*/
+.img {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right:auto;
+  display:block;
+}
+
+.text{
+  font-family: "Montserrat", serif;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.intro {
+  font-family: "Montserrat", serif;
+  font-size: 20px;
+}
+
+.submit{
+  background-color: rgb(236, 154, 238);
+  color: white;
+  font-family: "Montserrat", serif;
+  border: none;
+  border-radius: 6px;
+}
+.submit:hover {
+  background-color: #dd1ef3;
+}
+
+.heart {
+  font-size: 15px;
+  color: #dd1ef3;
+  background-color:rgb(236, 154, 238);
+  border: none;
+}
+
+.divider{
+  border: none;
+  height: 4px;
+  background-color: #dd1ef3;
+  margin-left: auto;
+  margin-right:auto;
+  display:block;
+  width: 90%
+}
