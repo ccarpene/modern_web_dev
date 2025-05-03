@@ -10,7 +10,7 @@ To run our project:
     
 2. Traverse into our feature_6 directory:
 
-    ```cd modern_web_dev-0.4.0/feature-6/```
+    ```cd modern_web_dev-0.4.2/feature-6/```
 
 4. Run our React+Vite project:
 
@@ -22,7 +22,7 @@ To run our project:
 
 5. Open up a separate terminal session (bash) and run our Node.js server by:
 
-    ```cd modern_web_dev-0.4.0/feature-6/server```
+    ```cd modern_web_dev-0.4.2/feature-6/server```
 
     ```npm install```
 
