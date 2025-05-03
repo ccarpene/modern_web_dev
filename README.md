@@ -13,18 +13,22 @@ To run our project:
     ```cd modern_web_dev-0.4.0/feature-6/```
 
 4. Run our React+Vite project:
+
+    ```npm install```
     
     ```npm run dev```
          
     ```Copy and paste the provided local URL (most likely http://localhost:5173/) into your browser```
 
-4. Open up a separate terminal session (bash) and run our Node.js server by:
+5. Open up a separate terminal session (bash) and run our Node.js server by:
 
-    ```cd modern_web_dev/feature-6/server```
+    ```cd modern_web_dev-0.4.0/feature-6/server```
+
+    ```npm install```
 
     ```node server.js```
          
-  6. Explore our website!
+  7. Explore our website!
     
 
 NOTE: If you are testing our email coupon code feature, please check your **spam** folder for the coupon as well.
