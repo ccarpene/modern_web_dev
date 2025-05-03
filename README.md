@@ -9,10 +9,10 @@ To run our project:
 1. Unzip our submitted file
     
 2. Traverse into our feature_6 directoy:
-    
-      cd modern_web_dev-0.4.0/feature-6/
 
-3. Run our React+Vite project:
+```cd modern_web_dev-0.4.0/feature-6/```
+
+4. Run our React+Vite project:
     
   npm run dev
          
