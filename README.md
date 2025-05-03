@@ -6,23 +6,23 @@ Carolina Carpenetti (ccarpene@nd.edu), Lauren Dungan (ldungan@nd.edu)
 
 To run our project:
 
-  1. Unzip our submitted file
+1. Unzip our submitted file
     
-  2. Traverse into our feature_6 directoy:
+2. Traverse into our feature_6 directoy:
     
-    ```cd modern_web_dev-0.4.0/feature-6/```
+  cd modern_web_dev-0.4.0/feature-6/
 
-  3. Run our React+Vite project:
+3. Run our React+Vite project:
     
-    ```npm run dev```
+  npm run dev
          
-    Copy and paste the provided local URL (most likely ```http://localhost:5173/```) into your browser
-         
-  4. Open up a separate terminal session (bash) and run our Node.js server by:
+  Copy and paste the provided local URL (most likely ```http://localhost:5173/```) into your browser
 
-    ```cd modern_web_dev/feature-6/server```
+4. Open up a separate terminal session (bash) and run our Node.js server by:
 
-    ```node server.js```
+  cd modern_web_dev/feature-6/server
+
+  node server.js
          
   6. Explore our website!
     
