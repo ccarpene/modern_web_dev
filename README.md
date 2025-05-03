@@ -10,7 +10,7 @@ To run our project:
     
 2. Traverse into our feature_6 directoy:
 
-```cd modern_web_dev-0.4.0/feature-6/```
+    ```cd modern_web_dev-0.4.0/feature-6/```
 
 4. Run our React+Vite project:
     
