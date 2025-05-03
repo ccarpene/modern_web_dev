@@ -12,6 +12,10 @@ const Main = () => {
     setComment(event.target.value); //update comment state when typing
   };
 
+  function clickAlert() {
+    alert("Email Sent!");
+  }
+  
   const handleSubmit = async (event) => {
     event.preventDefault();
   
@@ -61,7 +65,7 @@ const Main = () => {
       </form>
 
       {/* Render MainList component, which will fetch and display comments */}
-      <MainList />
+      <MainList onChildClick={clickAlert}/>
 
     </div>
     );

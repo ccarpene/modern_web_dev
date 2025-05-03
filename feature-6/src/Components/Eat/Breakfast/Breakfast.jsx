@@ -15,29 +15,28 @@ const Breakfast = () => {
         <h2 className="category">Cafes:</h2>
         <main>
         <article>
-            <a href="https://www.theragamuffinbakery.com/">Ragamuffin</a>
+            <a href="https://www.theragamuffinbakery.com/" target="_blank">Ragamuffin</a>
         </article>
         <article>
-            <a href="https://cloudwalkingcoffee.com/pages/join-our-team"
-            >Cloud Walking Coffee</a>
+            <a href="https://cloudwalkingcoffee.com/pages/join-our-team" target="_blank">Cloud Walking Coffee</a>
         </article>
-        <article><a href="https://www.javasouthbend.com/">Java Cafe</a></article>
+        <article><a href="https://www.javasouthbend.com/" target="_blank">Java Cafe</a></article>
         <article>
-            <a href="https://www.catladycafesouthbend.com/">Cat Lady Cafe</a>
+            <a href="https://www.catladycafesouthbend.com/" target="_blank">Cat Lady Cafe</a>
         </article>
         </main>
         <h2 className="category">Sit Down:</h2>
         <main>
-        <article><a href="https://www.peggssouthbend.com/menu">Peggs</a></article>
+        <article><a href="https://www.peggssouthbend.com/menu" target="_blank">Peggs</a></article>
         <article>
-            <a href="https://www.theearlybirdeatery.com/">Early Bird Eatery</a>
+            <a href="https://www.theearlybirdeatery.com/" target="_blank">Early Bird Eatery</a>
         </article>
         <article>
-            <a href="https://yellowcatcafe.com/">Yellow Cat Cafe</a>
+            <a href="https://yellowcatcafe.com/" target="_blank">Yellow Cat Cafe</a>
         </article>
-        <article><a href="https://www.daintymaid.co/">Dainty Maid</a></article>
+        <article><a href="https://www.daintymaid.co/" target="_blank">Dainty Maid</a></article>
         <article>
-            <a href="https://morrisinn.nd.edu/dine-with-us/rohrs/">Rohr's</a>
+            <a href="https://morrisinn.nd.edu/dine-with-us/rohrs/" target="_blank">Rohr's</a>
         </article>
         </main>
 
@@ -45,8 +44,7 @@ const Breakfast = () => {
         <h2 className="map_title">Check out these places on the map!</h2>
         <Map style="mapbox://styles/ccarpene/cm9oik31600jy01s6e3pm52ug" layer="breakfast" lat="-86.244" long="41.683" zoom="12.3"/>
 
-        {/* Button to return to home page */}
-        <button onClick={() => navigate("/")}>Return Home</button>
+        <br />
     </div>
   );
 };

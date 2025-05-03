@@ -41,8 +41,7 @@ export default function Stay() {
       <h2 className="map_title">Check out these places on the map!</h2>
       <Map style="mapbox://styles/ccarpene/cm9snys5c00sw01s6cg9d4mfd" layer="stay" lat="-86.247" long="41.693" zoom="12.3"/>
 
-      {/* Button to return to home page */}
-      <button onClick={() => navigate("/")}>Return Home</button>
+      <br />
     </div>
   );
 }

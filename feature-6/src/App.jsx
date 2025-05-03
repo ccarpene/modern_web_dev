@@ -3,7 +3,6 @@ import Components from "./Components/Components";
 //import * as Env from "./environments";
 import Parse from "parse";
 
-// Add the JSON of the Env vars
 const Env = {
   APPLICATION_ID: "sbz3OZBLJK2o8LACBZZ9yYPGeXHV4rHhugAitS4T",
   JAVASCRIPT_KEY: "Rru2V5vsS7KVgUlroYEU8WpvN2ZBrlD7tbrJLhwb",

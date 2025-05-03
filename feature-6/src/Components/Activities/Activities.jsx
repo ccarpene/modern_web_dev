@@ -27,7 +27,7 @@ const Activities = () => {
         </article>
         <article>
           <a href="https://southbendfarmersmarket.com/" target="_blank">
-            South Bend Farmers Market
+            South Bend Farmer's Market
           </a>
         </article>
       </main>
@@ -36,8 +36,7 @@ const Activities = () => {
       <h2 className="map_title">Check out these places on the map!</h2>
       <Map style="mapbox://styles/ccarpene/cm9sn50ih00s301rw43sy65e9" layer="activities" lat="-86.287" long="41.689" zoom="11.5"/>
 
-      {/* Button to return to home page */}
-      <button onClick={() => navigate("/")}>Return Home</button>
+      <br />
     </div>
   );
 };

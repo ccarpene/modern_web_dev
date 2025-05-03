@@ -22,6 +22,9 @@ const Header = () => {
             {/* Navigation with React Router */}
             <ul className="navigation">
                 <li>
+                <Link to="/">Home</Link>
+                </li>
+                <li>
                 <Link to="/eat">Where to Eat</Link>
                 </li>
                 <li>

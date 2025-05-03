@@ -4,7 +4,7 @@ import { createLike, getAllLikes } from "/src/Common/Services/LikeService";
 import LikeButton from "./LikeButton.jsx"
 import './Main.css'
   
-const MainList = () => {
+const MainList = ({onChildClick}) => {
 
     const [suggestions, setSuggestions] = useState([]);
     const [likes, setLikes] = useState([]);
@@ -60,6 +60,11 @@ const MainList = () => {
             <p>No suggestions yet!</p>
             )}
         </ul>
+
+        {/* Contact Us button that will trigger an alert in the parent */}
+        <button type="Contact Us" className="contact" onClick={onChildClick}>Contact Us</button>
+        <br />
+        <br />
       </div>
     );
 };

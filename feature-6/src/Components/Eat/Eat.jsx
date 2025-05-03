@@ -17,8 +17,7 @@ const Eat = () => {
         </article>
       </main>
 
-      {/* Button to return to home page */}
-      <button onClick={() => navigate("/")}>Return Home</button>
+      <br />
     </div>
   );
 };

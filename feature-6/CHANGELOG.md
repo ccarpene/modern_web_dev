@@ -6,9 +6,21 @@ This is based on the example provided in class by Professor Wicks.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
  
-## [Unreleased] - 2025-05-03
+## [0.4.0] - 2025-05-03
 
-Feature 6 - Feature Branch
+We included additional features and functionalities to our website, following our described user stories.
+
+### Added
+
+We have added an animated picture slideshow to our main page, highlighting different locations mentioned on our website. In addition, we have embedded interactive maps on certain webpages, in order to highlight the geographical locations of these places. Moreover, when a new user registers on our website, they will receive a 10% off coupon via email.
+ 
+### Changed
+
+Any links that redirect to external websites will now open in a separate tab, allowing the user to explore this external site while also remaining logged-in on our website. We also improved the appearance of our existing Authentication modules using CSS.
+
+### Fixed
+
+Once a user submits a comment on our main page, it will now appear in the list of existing suggestions in real-time. Previously, a newly submitted comment would not appear.
 
 ## [0.3.0] - 2025-04-02
 
