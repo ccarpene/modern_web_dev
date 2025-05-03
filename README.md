@@ -8,7 +8,7 @@ To run our project:
 
 1. Unzip our submitted file
     
-2. Traverse into our feature_6 directoy:
+2. Traverse into our feature_6 directory:
 
     ```cd modern_web_dev-0.4.0/feature-6/```
 
