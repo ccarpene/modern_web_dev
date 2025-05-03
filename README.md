@@ -14,15 +14,15 @@ To run our project:
 
 4. Run our React+Vite project:
     
-  npm run dev
+    ```npm run dev```
          
-  Copy and paste the provided local URL (most likely ```http://localhost:5173/```) into your browser
+    ```Copy and paste the provided local URL (most likely http://localhost:5173/) into your browser```
 
 4. Open up a separate terminal session (bash) and run our Node.js server by:
 
-  cd modern_web_dev/feature-6/server
+    ```cd modern_web_dev/feature-6/server```
 
-  node server.js
+    ```node server.js```
          
   6. Explore our website!
     
